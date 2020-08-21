@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/mvc
+ http://www.springframework.org/schema/mvc/spring-mvc.xsd
+ http://www.springframework.org/schema/tx
+ http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd
+ http://www.springframework.org/schema/aop
+ http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+    
+    
+    <!-- BEANS START HERE -->
+    <bean id="Broken Engine" class="com.tsguild.exercises.racer.engines.BrokenEngine">
+    </bean>
+    <bean id="Efficient Engine" class="com.tsguild.exercises.racer.engines.EfficientEngine">
+    </bean>
+    <bean id="Highpowered Engine" class="com.tsguild.exercises.racer.engines.HighPowerEngine">
+    </bean>
+    <bean id="Hybrid Engine" class="com.tsguild.exercises.racer.engines.HybridEngine">
+    </bean>
+    <bean id="Low Power Engine" class="com.tsguild.exercises.racer.engines.LowPowerEngine">
+    </bean>
+    <bean id="Turbo Engine" class="com.tsguild.exercises.racer.engines.TurboEngine">
+    </bean>
+    <bean id="HamsterBall" class="com.tsguild.exercises.racer.vehicles.HamsterBall">
+    </bean>
+    <bean id= "JWBeetle" class="com.tsguild.exercises.racer.vehicles.JWBeetle">
+        <constructor-arg ref="Hybrid Engine"/>
+        <property name="gasTank" value="25"/>
+    </bean>
+    <bean id="PixelTank" class="com.tsguild.exercises.racer.vehicles.PixelTank">
+        <constructor-arg ref="Low Power Engine"/>
+        <property name="gasTank" value="25"/>
+    </bean>
+    <bean id="DigitalPorshe" class="com.tsguild.exercises.racer.vehicles.DigitalPorshe">
+        <constructor-arg ref="Efficient Engine"/>
+        <property name="gasTank" value="25"/>
+    </bean>
+    <bean id="DragRacer" class="com.tsguild.exercises.racer.vehicles.DragRacer">
+        <constructor-arg ref="Highpowered Engine"/>
+        <property name="gasTank" value="25"/>
+    </bean>
+    <bean id="theJunker" class="com.tsguild.exercises.racer.vehicles.Vehicle">
+        <constructor-arg ref="Broken Engine"/>
+        <property name="gasTank" value="25"/>
+    </bean>
+    <bean id="Announcer" class="com.tsguild.exercises.racer.helpers.RealAnnouncer">
+    </bean>
+    <bean id="mechanic" class="com.tsguild.exercises.racer.helpers.Mechanic">
+    </bean>
+    <bean id="Race" class="com.tsguild.exercises.racer.tracks.Race">
+        <constructor-arg value="100"/>
+        <constructor-arg ref="Announcer"/>
+        <property name="mechanic" ref="mechanic"/>
+    </bean>
+    
+    
+</beans>

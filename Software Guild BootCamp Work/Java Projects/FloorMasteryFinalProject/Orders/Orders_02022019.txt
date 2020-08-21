@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+5,Brady,Kentucky,6.00,Wood,2000.0,5.15,4.75,10300.00,9500.00,1188.00,20988.00

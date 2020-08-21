@@ -1,0 +1,446 @@
+adairville logan
+albany clinton
+alexandria campbell
+allen floyd
+anchorage jefferson
+arlington carlisle
+ashland boyd
+auburn logan
+audubon park jefferson
+augusta bracken
+bancroft jefferson
+barbourmeade jefferson
+barbourville knox
+bardstown nelson
+bardwell carlisle
+barlow ballard
+beattyville lee
+beaver dam ohio
+bedford trimble
+beechwood village jefferson
+bellefonte greenup
+bellemeade jefferson
+bellevue campbell
+bellewood jefferson
+benham harlan
+benton marshall
+berea madison
+berry harrison
+blackey letcher
+blaine lawrence
+blandville ballard
+bloomfield nelson
+blue ridge manor jefferson
+bonnieville hart
+booneville owsley
+bowling green warren
+bradfordsville marion
+brandenburg meade
+bremen muhlenberg
+briarwood jefferson
+brodhead rockcastle
+broeck pointe jefferson
+bromley kenton
+brooksville bracken
+brownsboro farm jefferson
+brownsboro village jefferson
+brownsville edmonson
+buckhorn perry
+burgin mercer
+burkesville cumberland
+burnside pulaski
+butler pendleton
+cadiz trigg
+calhoun mclean
+california campbell
+calvert city marshall
+camargo montgomery
+cambridge jefferson
+campbellsburg henry
+campbellsville taylor
+campton wolfe
+caneyville grayson
+carlisle nicholas
+carrollton carroll
+carrsville livingston
+catlettsburg boyd
+cave city barren
+centertown ohio
+central city muhlenberg
+clarkson grayson
+clay webster
+clay city powell
+clinton hickman
+cloverport breckinridge
+coal run village pike
+cold spring campbell
+coldstream jefferson
+columbia adair
+columbus hickman
+concord	lewis
+corbin knox
+corinth	grant
+corydon	henderson
+covington kenton
+crab orchard lincoln
+creekside jefferson
+crescent springs kenton
+crestview campbell
+crestview hills kenton
+crestwood oldham
+crittenden grant
+crofton christian
+crossgate jefferson
+cumberland harlan
+cynthiana harrison
+danville boyle
+dawson springs hopkins
+dayton campbell
+dixon webster
+douglass hills jefferson
+dover mason
+drakesboro muhlenberg
+druid hills jefferson
+dry ridge grant
+earlington hopkins
+eddyville lyon
+edgewood kenton
+edmonton metcalfe
+ekron meade
+elizabethtown hardin
+elkhorn city pike
+elkton todd
+elsmere kenton
+eminence henry
+erlanger kenton
+eubank pulaski
+evarts harlan
+ewing fleming
+fairfield nelson
+fairview kenton
+falmouth pendleton
+ferguson pulaski
+fincastle jefferson
+flatwoods greenup
+fleming-neon letcher
+flemingsburg fleming
+florence boone
+fordsville ohio
+forest hills jefferson
+fort mitchell kenton
+fort thomas campbell
+fort wright kenton
+fountain run monroe
+fox chase bullitt
+frankfort franklin
+franklin simpson
+fredonia caldwell
+frenchburg menifee
+fulton fulton
+gamaliel monroe
+georgetown scott
+germantown bracken
+ghent carroll
+glasgow barren
+glencoe gallatin
+glenview jefferson
+glenview hills jefferson
+glenview manor jefferson
+goose creek jefferson
+goshen oldham
+grand rivers livingston
+gratz owen
+graymoor-devondale jefferson
+grayson carter
+green spring jefferson
+greensburg green
+greenup greenup
+greenville muhlenberg
+guthrie todd
+hanson hopkins
+hardin marshall
+hardinsburg breckinridge
+harlan harlan
+harrodsburg mercer
+hartford ohio
+hawesville hancock
+hazard perry
+hazel calloway
+hebron estates bullitt
+henderson henderson
+heritage creek jefferson
+hickman fulton
+hickory hill jefferson
+highland heights campbell
+hills and dales jefferson
+hillview bullitt
+hindman knott
+hodgenville larue
+hollow creek jefferson
+hollyvilla jefferson
+hopkinsville christian
+horse cave hart
+houston acres jefferson
+hunters hollow bullitt
+hurstbourne jefferson
+hurstbourne acres jefferson
+hustonville lincoln
+hyden leslie
+independence kenton
+indian hills jefferson
+inez martin
+irvine estill
+irvington breckinridge
+island mclean
+jackson breathitt
+jamestown russell
+jeffersontown jefferson
+jeffersonville montgomery
+jenkins letcher
+junction city boyle
+keene jessamine
+kenton vale kenton
+kevil ballard
+kingsley jefferson
+kuttawa lyon
+lacenter ballard
+lafayette christian
+la grange oldham
+lakeside park kenton
+lakeview heights rowan
+lancaster garrard
+langdon place jefferson
+lawrenceburg anderson
+lebanon	marion
+lebanon junction bullitt
+leitchfield grayson
+lewisburg logan
+lewisport hancock
+lexington fayette
+liberty casey
+lincolnshire jefferson
+livermore mclean
+livingston rockcastle
+london laurel
+loretto marion
+louisa lawrence
+louisville jefferson
+loyall harlan
+ludlow kenton
+lynch harlan
+lyndon jefferson
+lynnview jefferson
+mackville washington
+madisonville hopkins
+manchester clay
+manor creek jefferson
+marion crittenden
+martin floyd
+maryhill estates jefferson
+mayfield graves
+maysville mason
+mchenry ohio
+mckee jackson
+meadow vale jefferson
+meadowbrook farm jefferson
+meadowview estates jefferson
+melbourne campbell
+mentor campbell
+middlesboro bell
+middletown jefferson
+midway woodford
+millersburg bourbon
+milton trimble
+mockingbird valley jefferson
+monterey owen
+monticello wayne
+moorland jefferson
+morehead rowan
+morganfield union
+morgantown butler
+mortons gap hopkins
+mount olivet robertson
+mt. sterling montgomery
+mount vernon rockcastle
+mount washington bullitt
+muldraugh meade
+munfordville hart
+murray calloway
+murray hill jefferson
+nebo hopkins
+new castle henry
+new haven nelson
+newport campbell
+nicholasville jessamine
+norbourne estates jefferson
+north middletown bourbon
+northfield jefferson
+nortonville hopkins
+norwood	jefferson
+oak grove christian
+oakland warren
+old brownsboro place jefferson
+olive hill carter
+orchard grass hills oldham
+owensboro daviess
+owenton owen
+owingsville bath
+paducah	mccracken
+paintsville johnson
+paris bourbon
+park city barren
+park hills kenton
+parkway village jefferson
+pembroke christian
+perryville boyle
+pewee valley oldham
+pikeville pike
+pineville bell
+pioneer village bullitt
+pippa passes knott
+plantation jefferson
+pleasureville henry
+plum springs warren
+poplar hills jefferson
+powderly muhlenberg
+prestonsburg floyd
+prestonville carroll
+princeton caldwell
+prospect jefferson
+providence webster
+raceland greenup
+radcliff hardin
+ravenna estill
+raywick marion
+richlawn jefferson
+richmond madison
+river bluff oldham
+riverwood jefferson
+robards henderson
+rochester butler
+rockport ohio
+rolling fields jefferson
+rolling hills jefferson
+russell greenup
+russell springs russell
+russellville logan
+ryland heights kenton
+sacramento mclean
+sadieville scott
+st. charles hopkins
+st. mary marion
+st. matthews jefferson
+st. regis park jefferson
+salem livingston
+salt lick bath
+salyersville magoffin
+sanders carroll
+sandy hook elliott
+sardis mason
+science hill pulaski
+scottsville allen
+sebree webster
+seneca gardens jefferson
+sharpsburg bath
+shelbyville shelby
+shepherdsville bullitt
+shively jefferson
+silver grove campbell
+simpsonville shelby
+slaughters webster
+smithfield henry
+smithland livingston
+smiths grove warren
+somerset pulaski
+sonora	hardin
+south carrollton muhlenberg
+south park view jefferson
+south shore greenup
+southgate campbell
+sparta gallatin
+spring mill jefferson
+spring valley jefferson
+springfield washington
+stamping ground scott
+stanford lincoln
+stanton powell
+strathmoor manor jefferson
+strathmoor village jefferson
+sturgis union
+sycamore jefferson
+taylor mill kenton
+taylorsville spencer
+ten broeck jefferson
+thornhill jefferson
+tompkinsville monroe
+trenton todd
+union boone
+uniontown union
+upton hardin
+vanceburg lewis
+versailles woodford
+vicco perry
+villa hills kenton
+vine grove hardin
+walton boone
+warfield martin
+warsaw gallatin
+watterson park jefferson
+waverly union
+wayland floyd
+wellington jefferson
+west buechel jefferson
+west liberty morgan
+west point hardin
+westwood jefferson
+wheatcroft webster
+wheelwright floyd
+white plains hopkins
+whitesburg letcher
+whitesville daviess
+wickliffe ballard
+wilder campbell
+wildwood jefferson
+williamsburg whitley
+williamstown grant
+willisburg washington
+wilmore jessamine
+winchester clark
+windy hills jefferson
+wingo graves
+woodburn warren
+woodbury butler
+woodland hills jefferson
+woodlawn campbell
+woodlawn park jefferson
+worthington greenup
+worthington hills jefferson
+worthville carroll
+wurtland greenup
+paducah mccracken
+hebron boone
+burlington boone
+brooks bullitt
+alvaton warren
+staffordsville johnson
+fisherville jefferson
+blooomfield nelson
+pendleton henry
+perry park owen
+hawesville hancock
+kenton kenton
+eastview hardin
+mt. vernon rockcastle
+magnolia larue
+eastern floyd
+fancy farm graves
+mount sterling montgomery
+sedalia graves
+jeremiah letcher
+fort knox hardin
+la center ballard
+hopkisnville christian
+argillite greenup
+cub run hart
+fairdale jefferson
+finchville shelby

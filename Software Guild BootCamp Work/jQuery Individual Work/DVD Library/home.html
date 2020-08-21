@@ -1,0 +1,327 @@
+<html>
+<style>
+    .center {
+        margin: auto;
+        width: 50%;
+        padding: 5x;
+    }
+
+    .right {
+        position: absolute;
+        right: 0px;
+        width: 300px;
+        border: 3px solid #73AD21;
+        padding: 10px;
+    }
+
+    .left {
+        position: absolute;
+        left: 0px;
+        width: 300px;
+        border: 3px solid #73AD21;
+        padding: 10px;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .column5 {
+        float: left;
+        width: 20%;
+        padding: 10px;
+    }
+
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .fix {
+        position: fixed;
+        width: 100%;
+
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+</style>
+
+<head>
+    <title>Dvd Library</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <ul class="list-group" id="errorMessages"></ul>
+    <div id="all-top">
+        <div id="header">
+            <h1 class="text-center"> Dvd Library</h1>
+        </div>
+        <div id="top" class="fix" width="100%">
+            <button id="create-dvd" class="btn btn-default col-md-offset-1" onclick="showCreateForm()">
+                Create Dvd
+            </button>
+            <button id="search-dvd" class="btn btn-default col-md-offset-2" onclick="searchDVD()">
+                Search
+            </button>
+            <select id="search-cat" class=col-md-offset-1 name="Search Category" required>
+                <option id="base" selected disabled>Search Category</option>
+                <option>Title</option>
+                <option>Release Year</option>
+                <option>Director</option>
+                <option>Rating</option>
+            </select>
+            <input type="text" id="search-term" class="col-md-offset-1" placeholder="Search Term" required />
+            </input>
+
+        </div>
+        <br></br>
+        <div>
+            <hr>
+            </hr>
+        </div>
+        <div id="dvd-tablediv">
+            <table id="dvd-table">
+                <tr>
+                    <th class="text-center">Title</th>
+                    <th class="text-center">Release Date</th>
+                    <th class="text-center">Director</th>
+                    <th class="text-center">Rating</th>
+                    <th class="text-center">Edit/Delete</th>
+                </tr>
+                <tbody id="contentRows"></tbody>
+                <!--
+                             #3: This holds the list of dvds - we will add rows
+                            dynamically
+                             using jQuery
+                             -->
+            </table>
+        </div>
+    </div>
+    <div id="edit-dvd">
+        <h2 id="edit-header" class="col-md-offset-1">Edit Dvd Menu:</h2>
+        <hr>
+        </hr>
+        <form class="form-horizontal col-md-10" role="form" id="edit-form">
+            <p hidden id="edit-dvdId"></p>
+            <div class="form-group" id="Dvd-title">
+                <label for="edit-Dvd-title" class="col-md-2 control-label">
+                    Dvd Title:
+                </label>
+                <div class="col-md-offset-2">
+                    <input style="width: 300px" type="text" class="form-control" id="edit-Dvd-title"
+                        placeholder="Dvd Title" required />
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-release">
+                <label for="edit-release" class="col-md-2 control-label">
+                    Realease Year:
+                </label>
+                <div class="col-md-offset-2">
+                    <input style="width: 300px" type="text" class="form-control" id="edit-release"
+                        placeholder="Release Year" required />
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-director">
+                <label for="edit-director" class="col-md-2 control-label">
+                    Director:
+                </label>
+                <div class="col-md-offset-2">
+                    <input style="width: 300px" type="text" class="form-control" id="edit-director"
+                        placeholder="Director Name" required />
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-director">
+                <label for="edit-rating" class="col-md-2 control-label">
+                    Rating:
+                </label>
+                <div class="col-md-offset-2">
+                    <select id="edit-rating-select">
+                        <option id="G">G</option>
+                        <option id="PG">PG</option>
+                        <option id="PG-13">PG-13</option>
+                        <option id="R">R</option>
+                        <option id="NC-17">NC-17</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-director">
+                <label for="edit-notes" class="col-md-2 control-label">
+                    Notes:
+                </label>
+                <div class="col-md-offset-2">
+                    <textarea id="edit-notes" style="width: 300px; height: 100px;"></textarea>
+                </div>
+            </div>
+
+        </form>
+        <button id="Save-Changes" class="btn btn-default col-md-offset-2" onclick="editDVD()">
+            Save Changes
+        </button>
+
+        <button id="Cancel" class="btn btn-default" onclick="closeEditMenu()">
+            Cancel
+        </button>
+    </div>
+    <div id="showDVD">
+        <h2 id="create-header" class="col-md-offset-1">Dvd Information:</h2>
+        <hr>
+        </hr>
+        <form class="form-horizontal col-md-10" role="form" id="edit-form">
+            <div class="form-group" id="Dvd-title">
+                <label class="col-md-2 control-label">
+                    Dvd Title:
+                </label>
+                <div class="col-md-offset-2">
+                    <p id="show-title"></p>
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-release">
+                <label class="col-md-2 control-label">
+                    Release Year:
+                </label>
+                <div class="col-md-offset-2">
+                    <p id="show-release"></p>
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-director">
+                <label class="col-md-2 control-label">
+                    Director:
+                </label>
+                <div class="col-md-offset-2">
+                    <p id="show-director"></p>
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-director">
+                <label class="col-md-2 control-label">
+                    Rating:
+                </label>
+                <div class="col-md-offset-2">
+                    <p id="show-rating"></p>
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-director">
+                <label class="col-md-2 control-label">
+                    Notes:
+                </label>
+                <div class="col-md-offset-2">
+                    <p id="show-notes"></p>
+                </div>
+            </div>
+
+        </form>
+        <button id="Return to Main" class="btn btn-default col-md-offset-2" onclick="closeViewMenu()">
+            Return To Main
+        </button>
+    </div>
+    <div id="CreateDVD">
+        <h2 id="create-header" class="col-md-offset-1">Add Dvd:</h2>
+        <hr>
+        </hr>
+        <form class="form-horizontal col-md-10" role="form" id="edit-form">
+            <div class="form-group" id="Dvd-title">
+                <label for="set-Dvd-title" class="col-md-2 control-label">
+                    Dvd Title:
+                </label>
+                <div class="col-md-offset-2">
+                    <input style="width: 300px" type="text" class="form-control" id="set-Dvd-title"
+                        placeholder="Dvd Title" required />
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-release">
+                <label for="set-release" class="col-md-2 control-label">
+                    Release Year:
+                </label>
+                <div class="col-md-offset-2">
+                    <input style="width: 300px" type="text" class="form-control" id="set-release"
+                        placeholder="Release Year" required />
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-director">
+                <label for="set-director" class="col-md-2 control-label">
+                    Director:
+                </label>
+                <div class="col-md-offset-2">
+                    <input style="width: 300px" type="text" class="form-control" id="set-director"
+                        placeholder="Director Name" required />
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-director">
+                <label for="edit-rating" class="col-md-2 control-label">
+                    Rating:
+                </label>
+                <div class="col-md-offset-2">
+                    <select id="set-rating" required>
+                        <option id="baseOption">G</option>
+                        <option>PG</option>
+                        <option>PG-13</option>
+                        <option>R</option>
+                        <option>NC-17</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group" id="Dvd-director">
+                <label for="set-notes" class="col-md-2 control-label">
+                    Notes:
+                </label>
+                <div class="col-md-offset-2">
+                    <textarea id="set-notes" style="width: 300px; height: 100px;"></textarea>
+                </div>
+            </div>
+
+        </form>
+        <button id="Add-Dvd" class="btn btn-default col-md-offset-2" onclick="createDVD()">
+            Add Dvd
+        </button>
+
+        <button id="Cancel" class="btn btn-default" onclick="closeCreateMenu()">
+            Cancel
+        </button>
+    </div>
+    <div id="search-data">
+        <h1 class="text-center">Search Results</h1>
+        <br></br>
+        <table id="dvd-table-search">
+            <tr>
+                <th class="text-center">Title</th>
+                <th class="text-center">Release Date</th>
+                <th class="text-center">Director</th>
+                <th class="text-center">Rating</th>
+                <th class="text-center">Notes</th>
+            </tr>
+            <tbody id="contentRowsForSearch"></tbody>
+            <!--
+                             #3: This holds the list of dvds - we will add rows
+                            dynamically
+                             using jQuery
+                             -->
+        </table>
+        <br><br>
+        <button id="return-from-search" class="btn btn-default col-md-offset-2" onclick="closeSearch()">
+            Return To Main
+        </button>
+    </div>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>

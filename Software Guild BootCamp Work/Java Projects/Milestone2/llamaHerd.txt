@@ -1,0 +1,7 @@
+Fred::11::55.0::false::fuzzy::black
+Floyd::5::50.0::false::extra fuzzy::black and grey
+Secret::6::55.0::false::extremley fuzzy::black and white
+Beebop::11::55.0::false::fuzzy::black
+Boo::3::55.0::false::fluffy::black
+Serrano::12::33.0::true::soooo fluffy::Dark brown
+Dixie::8::33.0::false::The fluffiest::Dark brown

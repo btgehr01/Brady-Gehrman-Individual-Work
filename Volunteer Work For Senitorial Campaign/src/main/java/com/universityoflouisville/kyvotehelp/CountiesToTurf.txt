@@ -1,0 +1,10 @@
+1, ballard, caldwell, calloway, carlisle, christian, crittenden, fulton, graves, hickman, hopkins, livingston, lyon, marshall, mccracken, todd, trigg, union, webster
+2, allen, breckinridge, butler, daviess, edmonson, grayson, hancock, henderson, logan, mclean, meade, muhlenberg, ohio, simpson, warren
+3, adair, barren, boyle, casey, clinton, cumberland, green, hardin, hart, larue, marion, mercer, metcalfe, monroe, russell, taylor, washington, wayne
+4, bell, breathitt, clay, garrard, harlan, jackson, knott, knox, laurel, lee, leslie, letcher, lincoln, mccreary, owsley, perry, pulaski, rockcastle, whitley
+5, bath, boyd, carter, elliott, fleming, floyd, greenup, johnson, lawrence, lewis, magoffin, martin, mason, menifee, morgan, pike, robertson, rowan, wolfe
+6, boone, bracken, campbell, grant, kenton, owen, pendleton
+7, jefferson
+8, bullitt, carroll, franklin, gallatin, henry, nelson, oldham, shelby, spencer, trimble
+9, anderson, bourbon, clark, estill, harrison, montgomery, nicholas, powell, scott, woodford
+10, fayette, jessamine, madison

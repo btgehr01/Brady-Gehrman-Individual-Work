@@ -1,0 +1,6 @@
+A1::Cheez its::1.50::150::10
+B2::Gummy Worms::1.00::170::10
+A2::Snickers Bar::1.00::215::9
+B3::Elephant::0.99::2000::0
+D8::Tesla Vehicle::100000.00::0::1
+B1::Famous Amos Cookies::1.50::280::9

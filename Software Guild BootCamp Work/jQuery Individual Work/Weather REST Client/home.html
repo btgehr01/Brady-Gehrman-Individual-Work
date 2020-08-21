@@ -1,0 +1,240 @@
+<html>
+<style>
+    .center{
+margin: auto;
+width: 50%;
+padding: 5x;
+    }
+    .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.column5{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+    
+</style>
+
+<head>
+    <title>Weather Page</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="text-center"> Weather Page </h1>
+    <hr>
+    </hr>
+    <ul class="list-group" id="errorMessages"></ul>
+    <div id="get-info" class="row">
+        <div id="get-zip" class="text-center">
+            <p class="text-center">Please enter a 5-digit zipcode to show the weather in that area!</p>
+
+            <form class="form-horizontal" role="form" id="zip-form">
+                <div class="form-group">
+                    <label for="enter-zip" class="col-md-5 control-label">
+                        Zipcode:
+                    </label>
+
+                    <div class="col-md-2">
+                        <input type="text" class="form-control" id="enter-zip" placeholder="Zipcode" required />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="select-units" class="col-md-5 control-label">
+                        Units:
+                    </label>
+                    <div class="col-md-2">
+                        <select>
+                            <option>Imperial</option>
+                            <option>Metric</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <button type="button" id="show-weather-button" class="btn btn-default">
+                        Get Weather
+                    </button>
+                </div>
+
+        </div>
+
+    </div>
+
+    <div id="again-btn" class="text-center">
+        <button type="button" id="search-again" class="btn btn-default">
+            Return to Search
+        </button>
+    </div>
+    <div id="current-conditions" class="row">
+        <h2 id="current-city" class="text-center">
+            Current Conditions in | City |:
+        </h2>
+        <div class="center">
+            <div class="column">
+                <div class="row">
+                    <img id="icon" src="" alt="Current Weather Icon" class="center" width="80" height="120">
+
+                    </img>
+                </div>
+                <div class="row">
+                    <p id="des" style="float : left">
+
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <table>
+                    <tr>
+                        <th>Current Temperature</th>
+                        <th>High Temperature</th>
+                        <th>Low Temperature</th>
+                        <th>Humidity</th>
+                        <th>Wind Data</th>
+                    </tr>
+                    <tr>
+                        <td id="Temp-Data"></td>
+                        <td id="High-Data"></td>
+                        <td id="Low-Data"></td>
+                        <td id="Humidity-Data"></td>
+                        <td id="Wind-Data"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="five-day-forecast" class="row">
+        <h2 class="text-center">
+            Five Day Forecast:
+            </h3>
+            <div class="center">
+                <div id="dayOne" class="column5">
+                    <h4 id="h1">1 August</h4>
+                    <img id="icon1" src="" alt="First Weather Icon" class="center" width="120" height="60">
+
+                    </img>
+
+                    <p id="des1" class="center">des</p>
+                    <table class="center">
+                        <tr>
+                            <th>High:</th>
+                        </tr>
+                        <tr>
+                            <td id="hdata1">High Temperature Data</td>
+                        </tr>
+                        <tr>
+                            <th>Low:</th>
+                        </tr>
+                        <tr>
+                            <td id="ldata1">Low Temperature Data</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="dayTwo" class="column5">
+                    <h4 id="h2">2 August</h5>
+                        <img id="icon2" src="" alt="Second Weather Icon" class="center" width="120" height="60">
+
+                        </img>
+                        <p id="des2" class="center">des</p>
+                        <table class="center">
+                            <tr>
+                                <th>High</th>
+                            </tr>
+                            <tr>
+                                <td id="hdata2">High Temperature Data</td>
+                            </tr>
+                            <tr>
+                                <th>Low</th>
+                            </tr>
+                            <tr>
+                                <td id="ldata2">Low Temperature Data</td>
+                            </tr>
+                        </table>
+                </div>
+                <div id="dayThree" class="column5">
+                    <h4 id="h3">3 August</h6>
+                        <img id="icon3" src="" alt="Third Weather Icon" class="center" width="120" height="60">
+
+                        </img>
+                        <p id="des3" class="center">des</p>
+                        <table class="center">
+                            <tr>
+                                <th>High</th>
+                            </tr>
+                            <tr>
+                                <td id="hdata3">High Temperature Data</td>
+                            </tr>
+                            <tr>
+                                <th>Low</th>
+                            </tr>
+                            <tr>
+                                <td id="ldata3">Low Temperature Data</td>
+                            </tr>
+                        </table>
+                </div>
+                <div id="dayFour" class="column5">
+                    <h4 id="h4">4 August</h4>
+                    <img id="icon4" src="" alt="Fourth Weather Icon" class="center" width="120" height="60">
+
+                    </img>
+                    <p id="des4" class="center">des</p>
+                    <table class="center">
+                        <tr>
+                            <th>High</th>
+                        </tr>
+                        <tr>
+                            <td id="hdata4">High Temperature Data</td>
+                        </tr>
+                        <tr>
+                            <th>Low</th>
+                        </tr>
+                        <tr>
+                            <td id="ldata4">Low Temperature Data</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="dayFive" class="column5">
+                    <h4 id="h5">5 August</h4>
+                    <img id="icon5" src="" alt="Fifth Weather Icon" class="center" width="120" height="60">
+
+                    </img>
+                    <p id="des5" class="center">des</p>
+                    <table class="center">
+                        <tr>
+                            <th>High</th>
+                        </tr>
+                        <tr>
+                            <td id="hdata5">High Temperature Data</td>
+                        </tr>
+                        <tr>
+                            <th>Low</th>
+                        </tr>
+                        <tr>
+                            <td id="ldata5">Low Temperature Data</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    </div>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>

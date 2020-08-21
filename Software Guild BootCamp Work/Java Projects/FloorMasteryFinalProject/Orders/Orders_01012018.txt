@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+6,Abby,Washington,9.25,Tile,10.0,3.50,4.15,35.00,41.50,6.89,83.39

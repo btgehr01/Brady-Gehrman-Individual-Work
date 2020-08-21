@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+7,Caitlin,KY,6.00,Laminate,900.0,1.75,2.10,1575.00,1890.00,207.90,3672.90
